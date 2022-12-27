@@ -1,4 +1,6 @@
-package ru.borisov;
+package ru.borisov.parser;
+
+import ru.borisov.domain.BankTransaction;
 
 import java.util.List;
 

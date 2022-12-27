@@ -5,34 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68b33913-ae4a-44da-bfbc-9ed02b1be2c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementAnalyzerProblematic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementAnalyzerSRP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementAnalyzerSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementCSVParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementFullParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/resources/bank-data-simple.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/test/java/ru/borisov/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/borisov/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/dataexport/Exporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/dataexport/HtmlExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/domain/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/domain/SummaryStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/transactionfilter/BankTransactionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-analyzer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementAnalyzerProblematic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementAnalyzerSRP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementAnalyzerSimple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/parser/BankStatementCSVParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementFullParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/parser/BankStatementParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankStatementProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/BankTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/domain/BankTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/src/test/java/ru/borisov/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/home/ascjke/Documents/IdeaProjects/mob-qa",
+    "last_opened_file_path": "/home/ascjke/Documents/IdeaProjects/real-world-software-dev/bank-analyzer/src/main/resources",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -68,6 +77,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bank-analyzer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/bank-analyzer/src/test/java/ru/borisov" />
       <recent name="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov" />
     </key>
   </component>
@@ -77,7 +88,7 @@
       <module name="bank-analyzer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.*" />
+          <option name="PATTERN" value="ru.borisov.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,7 +101,7 @@
       <module name="bank-analyzer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.*" />
+          <option name="PATTERN" value="ru.borisov.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,9 +109,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BankTransactionCSVParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank-analyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.borisov.transactionfilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.borisov" />
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.BankTransactionCSVParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTransactionCSVParserTest.parseLinesFromTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank-analyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.borisov.transactionfilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.borisov" />
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.BankTransactionCSVParserTest" />
+      <option name="METHOD_NAME" value="parseLinesFromTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTransactionCSVParserTest.shouldParseOneCorrectLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank-analyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.borisov.transactionfilter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.borisov" />
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.BankTransactionCSVParserTest" />
+      <option name="METHOD_NAME" value="shouldParseOneCorrectLine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.BankTransactionCSVParserTest" />
+        <item itemvalue="JUnit.BankTransactionCSVParserTest.shouldParseOneCorrectLine" />
+        <item itemvalue="JUnit.BankTransactionCSVParserTest.parseLinesFromTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>

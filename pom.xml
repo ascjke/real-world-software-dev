@@ -11,6 +11,7 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>bank-analyzer</module>
+    <module>doc_manager</module>
   </modules>
 
     <properties>

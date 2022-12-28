@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68b33913-ae4a-44da-bfbc-9ed02b1be2c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc_manager/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc_manager/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc_manager/src/test/java/ru/borisov/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/ImageImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/InvoiceImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/LetterImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/ReportImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/TextFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/exception/UnknownFileTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc_manager/src/test/java/ru/borisov/DocumentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-analyzer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-analyzer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doc_manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/DocManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/DocumentManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/DocumentManagementSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/Importer.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/Importer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_manager/src/test/java/ru/borisov/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +39,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cf21ccc1-f120-4b72-b1c4-ff51b7d43283" />
+        <option name="url" value="https://github.com/ascjke/real-world-software-dev.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,24 +74,36 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/home/ascjke/Documents/IdeaProjects/real-world-software-dev/bank-analyzer/src/main/resources",
+    "last_opened_file_path": "/home/ascjke/Documents/IdeaProjects/telegram-filestorage",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.borisov" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bank-analyzer/src/main/resources" />
       <recent name="$PROJECT_DIR$/bank-analyzer/src/test/java/ru/borisov" />
       <recent name="$PROJECT_DIR$/bank-analyzer/src/main/java/ru/borisov" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.borisov" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.App" />
+  <component name="RunManager">
+    <configuration name="DocManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.DocManager" />
       <module name="doc_manager" />
       <extension name="coverage">
         <pattern>
@@ -105,33 +143,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTransactionCSVParserTest.parseLinesFromTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bank-analyzer" />
+    <configuration name="DocumentManagementSystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="doc_manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.transactionfilter.*" />
+          <option name="PATTERN" value="ru.borisov.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.borisov" />
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.BankTransactionCSVParserTest" />
-      <option name="METHOD_NAME" value="parseLinesFromTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.DocumentManagementSystemTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTransactionCSVParserTest.shouldParseOneCorrectLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bank-analyzer" />
+    <configuration name="DocumentManagementSystemTest.shouldImportFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="doc_manager" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borisov.transactionfilter.*" />
+          <option name="PATTERN" value="ru.borisov.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.borisov" />
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.BankTransactionCSVParserTest" />
-      <option name="METHOD_NAME" value="shouldParseOneCorrectLine" />
+      <option name="MAIN_CLASS_NAME" value="ru.borisov.DocumentManagementSystemTest" />
+      <option name="METHOD_NAME" value="shouldImportFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App (1)" />
+        <item itemvalue="JUnit.DocumentManagementSystemTest" />
+        <item itemvalue="JUnit.DocumentManagementSystemTest.shouldImportFile" />
         <item itemvalue="Application.MainApplication" />
+        <item itemvalue="Application.DocManager" />
         <item itemvalue="JUnit.BankTransactionCSVParserTest" />
-        <item itemvalue="JUnit.BankTransactionCSVParserTest.shouldParseOneCorrectLine" />
-        <item itemvalue="JUnit.BankTransactionCSVParserTest.parseLinesFromTest" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +192,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672025364760</updated>
+      <workItem from="1672189655865" duration="13000" />
+      <workItem from="1672189672938" duration="10785000" />
+      <workItem from="1672215203519" duration="2174000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

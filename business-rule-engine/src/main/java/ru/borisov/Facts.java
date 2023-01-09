@@ -1,0 +1,24 @@
+package ru.borisov;
+
+import lombok.Setter;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@Setter
+public class Facts {
+
+    private final Map<String, String> facts = new HashMap<>();
+
+    public String getFact(final String name) {
+        return facts.get(name);
+    }
+
+    public void setFact(String name, String value) {
+        facts.put(name, value);
+    }
+
+    public void addFact(final String name, final String value) {
+        facts.put(name, value);
+    }
+}

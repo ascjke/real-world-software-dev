@@ -5,23 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68b33913-ae4a-44da-bfbc-9ed02b1be2c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/Attributes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/ImageImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/InvoiceImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/LetterImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/ReportImporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/TextFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/exception/UnknownFileTypeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc_manager/src/test/java/ru/borisov/DocumentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/BusinessRuleEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/Condition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/ConditionalAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/DefaultRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/Diagnosis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/Facts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/Inspector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/Mailer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/Rule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/RuleBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/main/java/ru/borisov/Stage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/test/java/BusinessRuleEngineTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/business-rule-engine/src/test/java/InspectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-analyzer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-analyzer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc_manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doc_manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/DocManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/DocumentManagementSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/DocumentManagementSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/Importer.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc_manager/src/main/java/ru/borisov/Importer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc_manager/src/test/java/ru/borisov/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_manager/src/test/java/ru/borisov/DocumentManagementSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/doc_manager/src/test/java/ru/borisov/DocumentManagementSystemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -51,6 +56,34 @@
         <option name="accountId" value="cf21ccc1-f120-4b72-b1c4-ff51b7d43283" />
         <option name="url" value="https://github.com/ascjke/real-world-software-dev.git" />
       </UrlAndAccount>
+    </option>
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+          </AnonymousApexSettings>
+        </option>
+        <option name="soqlQuerySettings">
+          <SoqlQuerySettings>
+            <option name="savedDocuments">
+              <list>
+                <SoqlQuerySavedDocument>
+                  <option name="name" value="SOQL Query 1" />
+                </SoqlQuerySavedDocument>
+              </list>
+            </option>
+          </SoqlQuerySettings>
+        </option>
+      </ProjectWorkspaceSettings>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -76,21 +109,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "/home/ascjke/Documents/IdeaProjects/telegram-filestorage",
+    "last_opened_file_path": "/home/ascjke/Documents/IdeaProjects/real-world-software-dev",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.borisov" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bank-analyzer/src/main/resources" />
@@ -101,44 +136,32 @@
       <recent name="ru.borisov" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="DocManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.DocManager" />
-      <module name="doc_manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.borisov.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.MainApplication" />
-      <module name="bank-analyzer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.borisov.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankTransactionCSVParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bank-analyzer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.borisov.transactionfilter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.borisov" />
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.BankTransactionCSVParserTest" />
+  <component name="RunManager" selected="JUnit.InspectorTest">
+    <configuration name="BusinessRuleEngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business-rule-engine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusinessRuleEngineTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessRuleEngineTest.shouldExecuteOneAction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business-rule-engine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusinessRuleEngineTest" />
+      <option name="METHOD_NAME" value="shouldExecuteOneAction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusinessRuleEngineTest.shouldHaveNoRulesInitially" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business-rule-engine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusinessRuleEngineTest" />
+      <option name="METHOD_NAME" value="shouldHaveNoRulesInitially" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,33 +181,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DocumentManagementSystemTest.shouldImportFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="doc_manager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.borisov.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.borisov" />
-      <option name="MAIN_CLASS_NAME" value="ru.borisov.DocumentManagementSystemTest" />
-      <option name="METHOD_NAME" value="shouldImportFile" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="InspectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business-rule-engine" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InspectorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InspectorTest" />
+        <item itemvalue="JUnit.BusinessRuleEngineTest" />
+        <item itemvalue="JUnit.BusinessRuleEngineTest.shouldExecuteOneAction" />
+        <item itemvalue="JUnit.BusinessRuleEngineTest.shouldHaveNoRulesInitially" />
         <item itemvalue="JUnit.DocumentManagementSystemTest" />
-        <item itemvalue="JUnit.DocumentManagementSystemTest.shouldImportFile" />
-        <item itemvalue="Application.MainApplication" />
-        <item itemvalue="Application.DocManager" />
-        <item itemvalue="JUnit.BankTransactionCSVParserTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="68b33913-ae4a-44da-bfbc-9ed02b1be2c6" name="Changes" comment="" />
@@ -194,7 +214,16 @@
       <updated>1672025364760</updated>
       <workItem from="1672189655865" duration="13000" />
       <workItem from="1672189672938" duration="10785000" />
-      <workItem from="1672215203519" duration="2174000" />
+      <workItem from="1672215203519" duration="2535000" />
+      <workItem from="1672217749261" duration="25000" />
+      <workItem from="1672272377447" duration="195000" />
+      <workItem from="1672272582384" duration="180000" />
+      <workItem from="1672272769864" duration="135000" />
+      <workItem from="1672272911391" duration="7024000" />
+      <workItem from="1672360523112" duration="3270000" />
+      <workItem from="1672379074099" duration="360000" />
+      <workItem from="1672379443354" duration="102000" />
+      <workItem from="1673232576601" duration="13793000" />
     </task>
     <servers />
   </component>
